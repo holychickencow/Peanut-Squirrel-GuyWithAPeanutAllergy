@@ -21,7 +21,7 @@ function computeScore(playerClick){
         result = ('You win! ' + playerClick + ' beats ' + computerClick + ".");
 
         if (playerScore == 5) {
-            result += '<br><br>You won the game! Reload the page to play again.';
+            result += ' You won the game! Reload the page to play again.';
             disableButtons();
         }
     }
